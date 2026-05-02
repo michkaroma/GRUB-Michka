@@ -1,0 +1,33 @@
+desktop-color: "#FFFFFF"
+desktop-image: ""
+title-color: "#000000"
+title-text: ""
+
++ boot_menu {
+  left = 50%-400
+  top = 50%-80
+  width = 800
+  height = 160
+  item_width = 180
+  item_height = 160
+  item_spacing = 20
+  item_color = "#000000"
+  selected_item_color = "#000000"
+  icon_width = 80
+  icon_height = 80
+  item_font = "ubuntu-sans-14"
+  item_pixmap_style = ""
+  menu_pixmap_style = ""
+}
+
++ progress_bar {
+  left = 30%
+  top = 100%-16
+  width = 40%
+  height = 8
+  fg_color = "#000000"
+  bg_color = "#CCCCCC"
+  border_color = "#FFFFFF"
+  text_color = "#FFFFFF"
+  text = ""
+}
