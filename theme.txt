@@ -1,5 +1,5 @@
 desktop-color: "#FFFFFF"
-desktop-image: ""
+desktop-image: "background.png"
 title-color: "#000000"
 title-text: ""
 
