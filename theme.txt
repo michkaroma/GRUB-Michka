@@ -13,14 +13,14 @@ terminal-border: "0"
   left = 50%-160
   top = 25%
   width = 320
-  height = 160
-  item_width = 140
-  item_height = 140
+  height = 140
+  item_width = 128
+  item_height = 128
   item_spacing = 40
   item_color = "#000000"
   item_font = "ubuntu-sans-14"
-  icon_width = 64
-  icon_height = 64
+  icon_width = 128
+  icon_height = 128
   selected_item_color = "#000000"
   selected_item_pixmap_style = "select_*.png"
 }
