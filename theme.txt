@@ -1,33 +1,37 @@
 desktop-color: "#FFFFFF"
 desktop-image: "background.png"
-title-color: "#000000"
 title-text: ""
+terminal-font: "ubuntu-sans-14"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
 
 + boot_menu {
-  left = 50%-400
-  top = 50%-80
-  width = 800
+  left = 50%-160
+  top = 25%
+  width = 320
   height = 160
-  item_width = 180
-  item_height = 160
-  item_spacing = 20
+  item_width = 140
+  item_height = 140
+  item_spacing = 40
   item_color = "#000000"
-  selected_item_color = "#000000"
-  icon_width = 80
-  icon_height = 80
   item_font = "ubuntu-sans-14"
-  item_pixmap_style = ""
-  menu_pixmap_style = ""
+  icon_width = 64
+  icon_height = 64
+  selected_item_color = "#000000"
+  selected_item_pixmap_style = "select_*.png"
 }
 
-+ progress_bar {
++ label {
   left = 30%
-  top = 100%-16
+  top = 100%-40
   width = 40%
-  height = 8
-  fg_color = "#000000"
-  bg_color = "#CCCCCC"
-  border_color = "#FFFFFF"
-  text_color = "#FFFFFF"
-  text = ""
+  align = "center"
+  id = "__timeout__"
+  text = "Démarrage dans %d secondes"
+  color = "#000000"
+  font = "ubuntu-sans-14"
 }
