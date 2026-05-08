@@ -15,7 +15,17 @@ A clean, minimalist GRUB2 theme with a white background and monochrome icons.
 - Ubuntu Sans font
 
 ## File structure
-
+'''
+GRUB-Michka/
+├── background.png
+├── theme.txt
+├── fonts/
+│   └── ubuntu-sans-14.pf2
+├── icons/
+│   ├── ubuntu.png
+│   └── windows.png
+├── select_.png
+└── terminal_box_.png
 '''
 ## Installation
 
