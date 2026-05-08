@@ -16,7 +16,7 @@ A clean, minimalist GRUB2 theme with a white background and monochrome icons.
 
 ## File structure
 
-\`\`\`
+```
 GRUB-Michka/
 ├── background.png
 ├── theme.txt
@@ -27,7 +27,7 @@ GRUB-Michka/
 │   └── windows.png
 ├── select_*.png
 └── terminal_box_*.png
-\`\`\`
+```
 
 ## Installation
 
