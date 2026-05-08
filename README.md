@@ -86,3 +86,36 @@ sudo reboot
 ## License
 
 MIT
+## File structure
+```
+/home/michka/Git/GRUB-Michka/
+├── GRUB-Michka.png
+├── README.md
+├── background.png
+├── fonts
+│   └── ubuntu-sans-14.pf2
+├── icons
+│   ├── ubuntu.png
+│   └── windows.png
+├── select_c.png
+├── select_e.png
+├── select_n.png
+├── select_ne.png
+├── select_nw.png
+├── select_s.png
+├── select_se.png
+├── select_sw.png
+├── select_w.png
+├── terminal_box_c.png
+├── terminal_box_e.png
+├── terminal_box_n.png
+├── terminal_box_ne.png
+├── terminal_box_nw.png
+├── terminal_box_s.png
+├── terminal_box_se.png
+├── terminal_box_sw.png
+├── terminal_box_w.png
+└── theme.txt
+
+3 directories, 25 files
+```
