@@ -3,7 +3,7 @@
 A clean, minimalist GRUB2 theme with a white background and monochrome icons.
 
 ![GRUB-Michka preview](GRUB-Michka.png)
-> ⚠️ This is a reconstruction of the actual GRUB screen, not a real screenshot.
+> This is a reconstruction of the actual GRUB screen using a screen picture and Gemini, not a real screenshot.
 
 ---
 
@@ -46,9 +46,10 @@ sudo cp -r GRUB-Michka /boot/grub/themes/
 ```bash
 sudo nano /etc/default/grub
 ```
-Make sure this line is present:
+Make sure this lines are present:
 '''
 GRUB_TIMEOUT_STYLE=menu
+GRUB_THEME="/boot/grub/themes/GRUB-Michka/theme.txt"
 '''
 
 **4. Create a custom script to load the theme**
@@ -76,10 +77,3 @@ sudo chmod -x /etc/grub.d/05_debian_theme
 sudo update-grub
 sudo reboot
 ```
-
-## Compatibility
-
-- Ubuntu 24.04+
-- GRUB 2.12+
-- Secure Boot compatible
-- Tested on 1920×1080
